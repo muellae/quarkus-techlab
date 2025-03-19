@@ -71,7 +71,7 @@ public class DummyService {
 
 #### {{% param sectionnumber %}}.2.2: Constructor injection
 
-The constructor injection defines the injectable beans as injectable parameters in the constructor of your class. It is not necessary to use the `@Inject` annotation if your definition only has one no-args constructor defined.
+The constructor injection defines the injectable beans as injectable parameters in the constructor of your class. It is not necessary to use the `@Inject` annotation if your definition only has one constructor (required-args) defined.
 
 ```java
 @ApplicationScoped
